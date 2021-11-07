@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +11,13 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     background-color: darkcyan;
+    font-family: 'Roboto';
 }
+
+/* header */
 
 header{
     height: 60px;
-    background-color: white;
 }
 
 a{
@@ -44,8 +48,10 @@ a{
 
 .navigation-bar{
     line-height: 60px;
-    width: 95%;
-    margin: 0 auto;
+    width: 1200px;
+    position: fixed;
+    background-color: white;
+    padding: 0 20px;
 }
 
 .navigation-bar ul li{
@@ -59,3 +65,66 @@ a{
     color: white;
     padding: 5px 10px;
 }
+
+/* jumbotron */
+
+.jumbotron{
+    width: 100%;
+    height: 550px;
+    background-color: aqua;
+    padding-top: 40px;
+}
+
+.container-jumbo{
+    width: 85%;
+    margin: 30px auto;
+}
+
+.container-jumbo h1{
+    font-size: 65px;
+}
+
+.jumbo-info{
+    margin-top: 30px;;
+}
+
+.jumbo-text-info{
+    float: left;
+    width: 40%;
+    font-size: 15px;
+    padding-right: 60px;
+}
+
+.jumbo-text-info p.text{
+    margin-bottom: 30px;
+}
+
+.jumbo-text-info .button{
+    margin-bottom: 15px;
+}
+
+.free-trial{
+    background-color: blue;
+    padding: 5px 10px;
+    color: white;
+}
+
+.jumbo-text-info span{
+    font-size: 12px;
+}
+
+.jumbo-text-info .fas{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.jumbo-img-info{
+    float: right;
+    width: 60%;
+    height: 350px;
+}
+
+.jumbo-img-info img{
+    height: 100%;
+}
+
