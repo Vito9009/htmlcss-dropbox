@@ -4,3 +4,58 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+header{
+    height: 60px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    vertical-align: middle;
+    height: 20px;
+}
+
+.navbar-left{
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+}
+
+.start{
+    float: right;
+}
+
+.navigation-bar{
+    line-height: 60px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navigation-bar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.button-start{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
