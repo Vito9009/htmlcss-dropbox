@@ -10,7 +10,7 @@ body{
     width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: darkcyan;
+    background-color: white;
     font-family: 'Roboto';
 }
 
@@ -128,3 +128,107 @@ a{
     height: 100%;
 }
 
+/* main */
+
+main{
+    width: 1200px;
+    padding-top: 100px;
+}
+
+.main-section-1{
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 100px;
+}
+
+.main-section-1 h2{
+    margin-bottom: 30px;
+}
+
+.main-section-1 .billing-choice{
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.subs-types{
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.vertical-column{
+    width: 32%;
+    height: 800px;
+    background-color: white;
+    border: 1px solid red;
+    float: left;
+}
+
+.vertical-column.central-col{
+    margin: 0 2%;
+}
+
+.title-column{
+    border-bottom: 1px solid red;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.info-text-col{
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.row-column{
+    padding-bottom: 10px;
+}
+
+.price-col{
+    padding-bottom: 5px;
+}
+
+.month-user{
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.row-column .button-vertical-col{
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+}
+
+.row-column.button{
+    margin-top: 30px;
+    margin-bottom: 15px;;
+}
+
+.link-column{
+    color: blue;
+}
+
+.mini-border{
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+.horizontal-column{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid red;
+    float: left;
+    margin-top: 30px;
+}
+
+.horizontal-col-left{
+    width: 70%;
+    float: left;
+}
+
+.horizontal-col-right{
+    width: 30%;
+    float: right;
+}
