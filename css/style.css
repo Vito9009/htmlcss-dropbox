@@ -276,3 +276,68 @@ main{
     background-color: white;
     border: 1px solid grey;
 }
+
+/* main section 3 */
+
+.main-section-3{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-section-3 img{
+    width: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-section-3{
+    float: left;
+    width: 30%;
+    margin-bottom: 80px;
+}
+
+.box-section-3.central-box{
+    margin: 0 5%;
+}
+
+.box-section-3 h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.box-section-3 p{
+    font-size: 15px;
+}
+
+.box-section-3 .img-box{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    background-color: white;
+}
+
+.box-section-3 .box-1{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.box-section-3 .box-2{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+.box-section-3 .box-3{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+
+.box-section-3 .box-4{
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+.box-section-3 .box-5{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+.box-section-3 .box-6{
+    background-image: url(../img/business-feature-security.png);
+}
