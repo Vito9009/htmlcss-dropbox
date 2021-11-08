@@ -336,6 +336,8 @@ main{
     background-image: url(../img/business-feature-security.png);
 }
 
+/* section 4 */
+
 .title-info-bottom{
     width: 70%;
     margin: 0 auto;
@@ -474,4 +476,41 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* section 5 */
+
+.faq{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.faq h3{
+    padding-bottom: 40px;
+}
+
+.faq-ok{
+    border-top: 1px solid black;
+}
+
+.faq-ok h5{
+    height: 50px;
+    line-height: 50px;
+}
+
+.faq-row{
+    border-bottom: 1px solid black;
+}
+
+.faq-row .question{
+    display: block;
+}
+
+.faq-row .answer{
+    display: none;
+}
+
+.show-answer:hover .answer{
+    display: block;
 }
