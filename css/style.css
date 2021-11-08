@@ -11,7 +11,7 @@ body{
     width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: lightskyblue;
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto';
 }
 
@@ -23,7 +23,7 @@ header{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .logo{
@@ -51,7 +51,7 @@ a{
     line-height: 60px;
     width: 1200px;
     position: fixed;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 0 20px;
     z-index: 1;
 }
@@ -62,10 +62,24 @@ a{
     padding: 0 20px;
 }
 
+.navigation-bar ul li a, .navigation-bar a{
+    font-size: 15px;
+}
+
+.navigation-bar ul li a:hover, .footer-column ul li a:hover{
+    color: rgb(0, 97, 255);
+}
+
+
+
 .button-start{
-    background-color: blue;
-    color: white;
+    background-color: rgb(0, 97, 255);
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
+}
+
+.button-shadow:hover{
+    box-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 /* jumbotron */
@@ -73,7 +87,7 @@ a{
 .jumbotron{
     width: 100%;
     height: 550px;
-    background-color: aqua;
+    background-color: rgb(180, 208, 231);
     padding-top: 40px;
 }
 
@@ -106,13 +120,17 @@ a{
 }
 
 .free-trial{
-    background-color: blue;
+    background-color: rgb(0, 97, 255);
     padding: 5px 10px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .jumbo-text-info span{
     font-size: 12px;
+}
+
+.jumbo-text-info .delete{
+    margin-top: 15px;
 }
 
 .jumbo-text-info .fas{
@@ -146,13 +164,18 @@ main{
 }
 
 .main-section-1 h2{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .main-section-1 .billing-choice{
     padding-bottom: 20px;
     width: 70%;
     margin: 0 auto;
+}
+
+.select-billing{
+    padding-right: 20px;
+    font-size: 15px;
 }
 
 .subs-types{
@@ -163,9 +186,8 @@ main{
 
 .vertical-column{
     width: 32%;
-    height: 800px;
-    background-color: white;
-    border: 1px solid red;
+    min-height: 900px;
+    border: 1px solid rgb(213, 213, 213);
     float: left;
 }
 
@@ -174,34 +196,71 @@ main{
 }
 
 .title-column{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(213, 213, 213);
     text-align: center;
     height: 40px;
     line-height: 40px;
+    font-size: 15px;
 }
 
 .info-text-col{
     padding: 0 20px;
     margin: 20px 0;
+    font-size: 13px;
 }
 
 .row-column{
     padding-bottom: 10px;
 }
 
+.vertical-col-top h4, .horizontal-col-left h4{
+    font-size: 20px;
+}
+
 .price-col{
     padding-bottom: 5px;
+    font-weight: bold;
 }
 
 .month-user{
-    color: grey;
+    color: rgb(102, 118, 131);
     padding-bottom: 30px;
 }
 
 .row-column .button-vertical-col{
     padding: 5px 15px;
-    background-color: blue;
-    color: white;
+    background-color: rgb(0, 97, 255);
+    color: rgb(255, 255, 255);
+}
+
+.link-column:hover{
+    text-decoration: underline;
+}
+
+.vertical-col-bottom h6{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.horizontal-col-left h6{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.horizontal-col-right .button-vertical-col{
+    padding: 5px 30px;
+}
+
+.vertical-col-bottom .highlights-plan{
+    margin-top: 10px;
+}
+
+.vertical-col-bottom .highlights-plan .row-column{
+    margin-bottom: 8px;
+}
+
+.fas.fa-check{
+    color: rgb(0, 97, 255);
 }
 
 .row-column.button{
@@ -210,19 +269,19 @@ main{
 }
 
 .link-column{
-    color: blue;
+    color: rgb(0, 97, 255);
 }
 
 .mini-border{
     padding-bottom: 20px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(213, 213, 213);
 }
 
 .horizontal-column{
     width: 100%;
     height: 200px;
-    background-color: white;
-    border: 1px solid red;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(213, 213, 213);
     float: left;
     margin-top: 30px;
 }
@@ -260,22 +319,24 @@ main{
 
 .section-2-text{
     padding: 50px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .section-2-text h4{
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .section-2-text p{
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 
 .button-section-2{
     padding: 10px 15px;
-    background-color: white;
-    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0 ,0);
 }
 
 /* main section 3 */
@@ -283,6 +344,11 @@ main{
 .main-section-3{
     width: 70%;
     margin: 0 auto;
+}
+
+.main-section-3 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .box-section-3{
@@ -310,7 +376,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .box-section-3 .box-1{
@@ -432,6 +498,7 @@ main{
 
 .team-opinion{
     padding: 30px;
+    background-color: rgb(245, 245, 245);
 }
 
 .team-opinion img{
@@ -441,6 +508,7 @@ main{
 
 .team-opinion p{
     margin: 40px 0;
+    font-size: 15px;
 }
 
 .bottom-title{
@@ -453,6 +521,10 @@ main{
     float: left;
     width: 50%;
     position: relative;
+}
+
+.title-info-bottom.top-section a{
+    font-size: 15px;
 }
 
 .title-bottom-section h2{
@@ -492,7 +564,7 @@ main{
 }
 
 .faq-ok{
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(0, 0, 0);
 }
 
 .faq-ok h5{
@@ -502,10 +574,20 @@ main{
 
 .faq-ok p{
     font-size: 12px;
+    padding-bottom: 15px;
 }
 
 .faq-row{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.faq-row h5 .h5-left{
+    float: left;
+}
+
+.faq-row h5 .h5-right{
+    float: right;
+    margin-right: 10px;
 }
 
 .faq-row .question{
@@ -520,10 +602,26 @@ main{
     display: block;
 }
 
+.question .fas.fa-chevron-down{
+    display: inline-block;
+}
+
+.question .fas.fa-chevron-up{
+    display: none;
+}
+
+.show-arrow:hover .fas.fa-chevron-down{
+    display: none;
+}
+
+.show-arrow:hover .fas.fa-chevron-up{
+    display: inline-block;
+}
+
 /* footer */
 
 footer{
-    height: 500px;
+    height: 350px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: relative;
@@ -558,5 +656,14 @@ footer{
     position: absolute;
     bottom: 15px;
     left: 150px;
+    color: rgb(191, 191, 191);
     font-size: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(191, 191, 191);
+}
+
+.language .fa-sort-up{
+    vertical-align: bottom;
 }
