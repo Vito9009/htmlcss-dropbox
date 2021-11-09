@@ -441,6 +441,11 @@ main{
     float: left;
 }
 
+.team-opinion hr{
+    width: 40px;
+    color: rgb(230, 230, 231);
+}
+
 .teams-right{
     float: right;
 }
