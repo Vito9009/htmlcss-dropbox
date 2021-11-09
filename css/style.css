@@ -425,7 +425,7 @@ main{
 
 .teams-dropbox{
     width: 100%;
-    height: 400px;
+    height: 360px;
     margin-top: 30px;
 }
 
@@ -439,7 +439,6 @@ main{
 
 .teams-left, .teams-right{
     width: 30%;
-    height: 100%;
 }
 
 .team-opinion{
@@ -448,14 +447,14 @@ main{
 }
 
 .box-teams .img-logo-team{
-    height: 200px;
+    height: 180px;
     width: 50%;
     float: left;
     position: relative;
 }
 
 .box-teams img{
-    width: 100px;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
